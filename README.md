@@ -1,10 +1,10 @@
-# Microservices Demo - Bundle (skeleton)
+# Microservices Demo
 
 This archive contains a runnable skeleton for:
 - Eureka Server
 - API Gateway (Spring Cloud Gateway)
-- Product Service (uses MySQL + Redis cache)
-- Order Service (Feign + Kafka producer + same MySQL schema)
+- Product Service (uses MySQL)
+- Order Service (Feign + Kafka producer  + Redis cache + same MySQL schema)
 
 Infra: MySQL, Redis, Zookeeper, Kafka are provided via docker-compose.
 
