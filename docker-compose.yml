@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: micro_demo
+      MYSQL_PASSWORD: root123
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  redis:
+    image: redis:7.0
+    container_name: redis
+    restart: on-failure
+    ports:
+      - "6379:6379"
+
+  kafka:
+    image: apache/kafka:3.9.1
+    container_name: kafka
+    restart: on-failure
+    environment:
+      KAFKA_KRAFT_MODE: "true"
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+      - ./kafka-config/server.properties:/etc/kafka/kraft/server.properties
+    ports:
+      - "9092:9092"
+      - "9093:9093"
+    user: "1000:1000"
+    command: >
+      bash -c "if [ ! -f /var/lib/kafka/data/meta.properties ]; then /opt/kafka/bin/kafka-storage.sh format --cluster-id 123e4567-e89b-12d3-a456-426614174000 --config /etc/kafka/kraft/server.properties; fi && /opt/kafka/bin/kafka-server-start.sh /etc/kafka/kraft/server.properties"
+
+
+volumes:
+  mysql_data:
+  kafka_data:

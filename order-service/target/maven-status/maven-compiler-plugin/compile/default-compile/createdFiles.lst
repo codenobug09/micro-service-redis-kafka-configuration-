@@ -1,0 +1,13 @@
+com\example\order\dto\ProductDto.class
+com\example\order\model\Order$OrderBuilder.class
+com\example\order\client\ProductClient.class
+com\example\order\service\OrderService.class
+com\example\order\controller\OrderController.class
+com\example\order\kafka\OrderEventConsumer.class
+com\example\order\service\ProductService.class
+com\example\order\redis\RedisConfig.class
+com\example\order\model\Order.class
+com\example\order\client\ProductClientFallback.class
+com\example\order\OrderServiceApplication.class
+com\example\order\repository\OrderRepository.class
+com\example\order\kafka\KafkaConfig.class
