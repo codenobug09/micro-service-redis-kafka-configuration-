@@ -1,4 +1,5 @@
-C:\Users\Admin\Downloads\microservices-demo\product-service\src\main\java\com\example\product\controller\ProductController.java
-C:\Users\Admin\Downloads\microservices-demo\product-service\src\main\java\com\example\product\model\Product.java
-C:\Users\Admin\Downloads\microservices-demo\product-service\src\main\java\com\example\product\ProductServiceApplication.java
-C:\Users\Admin\Downloads\microservices-demo\product-service\src\main\java\com\example\product\repository\ProductRepository.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\product-service\src\main\java\com\example\product\ProductServiceApplication.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\product-service\src\main\java\com\example\product\config\RedisConfig.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\product-service\src\main\java\com\example\product\model\Product.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\product-service\src\main\java\com\example\product\controller\ProductController.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\product-service\src\main\java\com\example\product\repository\ProductRepository.java
