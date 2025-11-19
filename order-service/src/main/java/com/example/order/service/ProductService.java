@@ -3,23 +3,18 @@ package com.example.order.service;
 import com.example.order.client.ProductClient;
 import com.example.order.dto.ProductDto;
 import com.example.order.repository.OrderRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class ProductService {
+
     private final ProductClient productClient;
-    private final OrderRepository orderRepository;
-    private final KafkaTemplate<String, Object> kafkaTemplate;
-
-    public ProductService(ProductClient productClient, OrderRepository orderRepository, KafkaTemplate<String, Object> kafkaTemplate){
-        this.productClient = productClient;
-        this.orderRepository = orderRepository;
-        this.kafkaTemplate = kafkaTemplate;
-    }
-
-    @Cacheable(value = "product", key = "#productId")
+    @Cacheable(value = "product", key = "#id")
     public ProductDto getProductById(Long id) {
         return productClient.getProduct(id);
     }

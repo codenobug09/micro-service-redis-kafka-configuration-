@@ -1,2 +1,6 @@
 package com.example.order.dto;
-public record ProductDto(Long id, Long idProduct, String name, Double price) {}
+
+import lombok.Builder;
+
+@Builder
+public record ProductDto(Long id, String name, Double price) {}
