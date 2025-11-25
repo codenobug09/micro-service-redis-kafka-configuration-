@@ -7,7 +7,7 @@ com\example\order\kafka\OrderEventConsumer.class
 com\example\order\service\ProductService.class
 com\example\order\redis\RedisConfig.class
 com\example\order\model\Order.class
-com\example\order\client\ProductClientFallback.class
 com\example\order\OrderServiceApplication.class
+com\example\order\dto\ProductDto$ProductDtoBuilder.class
 com\example\order\repository\OrderRepository.class
 com\example\order\kafka\KafkaConfig.class

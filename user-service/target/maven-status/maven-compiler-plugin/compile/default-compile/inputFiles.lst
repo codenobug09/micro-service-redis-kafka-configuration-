@@ -1,0 +1,12 @@
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\redis\RedisConfig.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\client\OrderClient.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\repository\UserRepository.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\UserServiceApplication.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\client\ProductClientFallback.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\controller\UserController.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\model\User.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\service\UserServiceInterface.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\service\UserService.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\dto\UserDto.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\kafka\KafkaConfig.java
+C:\Users\HNBV13324\Documents\micro service\micro-service-redis-kafka-configuration-\user-service\src\main\java\com\example\user\kafka\OrderEventConsumer.java

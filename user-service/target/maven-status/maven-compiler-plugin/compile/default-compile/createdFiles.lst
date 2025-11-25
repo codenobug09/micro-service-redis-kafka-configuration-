@@ -1,0 +1,13 @@
+com\example\user\kafka\KafkaConfig.class
+com\example\user\model\User$UserBuilder.class
+com\example\user\redis\RedisConfig.class
+com\example\user\client\OrderClient.class
+com\example\user\service\UserService.class
+com\example\user\UserServiceApplication.class
+com\example\user\dto\UserDto$UserDtoBuilder.class
+com\example\user\service\UserServiceInterface.class
+com\example\user\kafka\OrderEventConsumer.class
+com\example\user\repository\UserRepository.class
+com\example\user\model\User.class
+com\example\user\controller\UserController.class
+com\example\user\dto\UserDto.class

@@ -2,5 +2,7 @@ com\example\product\model\Product.class
 com\example\product\ProductServiceApplication.class
 com\example\product\repository\ProductRepository.class
 com\example\product\model\Product$ProductBuilder.class
+com\example\product\service\ProductService.class
 com\example\product\config\RedisConfig.class
+com\example\product\service\ProductServiceInterface.class
 com\example\product\controller\ProductController.class
